@@ -8,30 +8,43 @@
 </head>
 <body>
 	<header>
-		<img class="logo" src="images/logo.svg" alt="site logo">	
-		<section class="header">
+		<img src="images/logo.svg" alt="site logo" height="100" width="92.75" class="logo">	
+		<section class="identity">
 			<div id="name">László Dorogi</div>
-			<div>Front-end web developer</div>
+			<p>Front-end web developer</p>
 		</section>
+
+		<hr class="rule">	
+
 		<nav>
 			<ul class="menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About me</a></li>
+  			<li><a href=index.html>Home</a></li>
+  			<li><a href=about.html>About me</a></li>
 			</ul>
-		</nav>	
+		</nav>
 	</header>
 
 	<section class="purpose">
 		<h1>Portfolio Site</h1>
-		<p></p>	
+		<p>With this site I would present my actual capabilities as a front-end WEB developer.</p>	
+		<figure>
+    	<picture>
+    		<source media="(min-width: 750px)" srcset="images/code-1600_large_2x.jpg 2x, images/code-800_large_1x.jpg"  />
+        <source media="(min-width: 630px)" srcset="images/code_medium.jpg" />
+        <img src="images/code_small.jpg" alt="HTML code on a screen" class="flex-img">
+      </picture>
+    </figure>
 	</section>
-	<h2>Featured Work</h2>	
+
+	<h2>Featured Work</h2>
+
 	<section class="work">
 		<div class="project">
 			<figure>
 				<picture>
-					
-				</picture>
+    			<source media="(min-width: 630px)" srcset="images/pixel_art_maker_medium.jpg" />
+        	<img src="images/pixel_art_maker_small.jpg" alt="Pixel art maker screenshot" class="work-img">
+      	</picture>
 				<figcaption>Pixel Art Maker</figcaption>
 			</figure>
 			<a class="gitlink" href="https://github.com/ldorogi/pixel-art-maker">https://github.com/ldorogi/pixel-art-maker/</a>
@@ -39,8 +52,9 @@
 		<div class="project">
 			<figure>
 				<picture>
-					
-				</picture>
+    			<source media="(min-width: 630px)" srcset="images/animal_trading_card_medium.jpg" />
+        	<img src="images/animal_trading_card_small.jpg" alt="Bunny" class="work-img">
+      	</picture>
 				<figcaption>Animal Trading Card</figcaption>
 			</figure>
 			<a class="gitlink" href="https://github.com/ldorogi/animal-trading-cards">https://github.com/ldorogi/animal-trading-cards/</a>
@@ -48,16 +62,17 @@
 		<div class="project">
 			<figure>
 				<picture>
-					
-				</picture>
+    			<source media="(min-width: 630px)" srcset="images/code_medium.jpg" />
+        	<img src="images/code_small.jpg" alt="HTML code on a screen" class="work-img">
+      	</picture>
 				<figcaption>Portfolio Site</figcaption>
 			</figure>
 			<a class="gitlink" href="https://github.com/ldorogi/portfolio-site">https://github.com/ldorogi/portfolio-site/</a>
 		</div>
+		<br>
 	</section>
-
 	<footer>
-		<p>Copyrights @2018 László Dorogi</p>	
+		<p>Copyrights @2018 László Dorogi</p>		
 	</footer>
 </body>
 </html>
